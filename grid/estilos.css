@@ -1,0 +1,58 @@
+.bajar{padding-top: 25px}
+.bajar1{padding-top: 50px}
+.carousel_center{padding-left: 84px;}
+.botton{padding-bottom: 100px;}
+.header {
+    background:#2c3e50;
+           color:#fff;
+    }
+.color{background-color: gray;color: white;}
+.color_red{background-color: brown;
+    color: white;}
+.color-p1{background-color: rgba(238, 238, 238, 0.71);}
+.color-p3-5{background-color: rgba(119, 119, 119, 0.28);}
+.foother-color{background-color: #0B5545;}
+.foother-name{color: #ffffff;}
+.header-color{background-color: #bed6be;}
+.redondear-bordes{border-radius: 8px;}
+.menucol-despegable{background-color: rgba(171, 232, 199, 0.61);}
+
+.navbar {
+    margin-bottom: 0;
+}
+ 
+.jumbotron {
+    background:#428BCA;
+    color:#fff;
+    padding: 20px 0;
+}
+
+/* -- POST-- */
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.post .post-title a {
+    color: #333;
+}
+
+.post .thumb {
+    margin-right: 10px;
+    width: 40%;
+}
+
+.post .thumb img {
+    width: 100%;
+}
+
+.post .contenedor-botones {
+    width: 100%
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>componente scollapse</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../grid/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <a href="#seccion" class="btn btn-primary" data-toggle="collapse">Mostrar / Ocultar </a>
+        <div class="collapse" id="seccion">
+            <br>
+            <div class="well">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum qui, nobis consectetur accusantium quibusdam aliquid illum deleniti aut ipsa, facere delectus ea voluptatibus perferendis itaque veniam omnis quo. Aperiam, minima!</p>
+            </div>
+        </div>
+
+        <br><br>
+
+        <!-- Acordeon -->
+
+        <div class="panel-group" id="acordion" role="tablist">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading1">
+                    <h4 class="panel-title">
+                        <a href="#collapse1" data-toggle="collapse" data-parent="#acordion">
+                           Encabezado #1
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="collapse1" class="panel-collapse collapse in">
+                     <div class="panel-body">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis necessitatibus libero dolore id magnam, eveniet sequi nisi voluptatibus. Ad non dicta nobis velit, optio doloremque, necessitatibus pariatur sapiente autem quod.
+                     </div>
+                </div>
+                
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading2">
+                    <h4 class="panel-title">
+                        <a href="#collapse2" data-toggle="collapse" data-parent="#acordion">
+                           Encabezado #2
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="collapse2" class="panel-collapse collapse">
+                     <div class="panel-body">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis necessitatibus libero dolore id magnam, eveniet sequi nisi voluptatibus. Ad non dicta nobis velit, optio doloremque, necessitatibus pariatur sapiente autem quod.
+                     </div>
+                </div>
+                
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="heading3">
+                    <h4 class="panel-title">
+                        <a href="#collapse3" data-toggle="collapse" data-parent="#acordion">
+                           Encabezado #3
+                        </a>
+                    </h4>
+                </div>
+
+                <div id="collapse3" class="panel-collapse collapse ">
+                     <div class="panel-body">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis necessitatibus libero dolore id magnam, eveniet sequi nisi voluptatibus. Ad non dicta nobis velit, optio doloremque, necessitatibus pariatur sapiente autem quod.
+                     </div>
+                </div>
+                
+            </div>
+
+        </div>
+        
+
+
+    </div>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
